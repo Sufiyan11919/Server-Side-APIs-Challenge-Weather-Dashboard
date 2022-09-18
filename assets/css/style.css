@@ -1,0 +1,91 @@
+h1 {
+    background-color: darkgrey;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    color: black;
+  }
+  
+  
+  p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  aside {
+    width: 28%;
+    margin-right: 30px;
+  }
+  section {
+    width: 70%;
+  }
+  
+  #search {
+    border-radius: 1rem;
+    background-color: darkblue;
+    color: white;
+    padding: 0 30px;
+    font-size: large;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .column button {
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .location {
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border-radius: 1rem;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    width: 100%;
+    margin-right: 20px;
+  }
+  
+  .currentUV span {
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  .image {
+    width: 20px;
+    height: 20px;
+    padding: 35px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    aside {
+      width: 100%;
+      margin-right: 0;
+    }
+    section {
+      width: 100%;
+    }
+    .flex,.card-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
