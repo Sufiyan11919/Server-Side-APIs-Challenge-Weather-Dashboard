@@ -20,7 +20,7 @@ SO THAT I can plan a trip accordingly
 
 ## Screenshots
 
-![App Screenshot]()
+![App Screenshot](https://raw.githubusercontent.com/Sufiyan11919/Server-Side-APIs-Challenge-Weather-Dashboard/main/screenshots/Screenshot%20(190).png)
 
 
 
@@ -29,7 +29,7 @@ SO THAT I can plan a trip accordingly
 ## Deployed link of application
 - 
 ## Github Link
-- 
+- https://sufiyan11919.github.io/Server-Side-APIs-Challenge-Weather-Dashboard/
 
 ## Acknowledgements
 - Modules
